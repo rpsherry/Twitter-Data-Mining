@@ -18,10 +18,10 @@ import numpy as np #for number computing
 
 def oauth_login():
     
-    CONSUMER_KEY = '4A34OfnrNnjRU3LYoDszUgTnM'
-    CONSUMER_SECRET = 'LFlM8myxCr5FicvBdX6QTn93D0iuk79z82kbyscIDDUaG5lOuX'
-    OAUTH_TOKEN = '913439754-YnDyGZaxD8TGJhbCLKQtSQb9e5Kpegcnl0JHJaXI'
-    OAUTH_TOKEN_SECRET = 'XH4OLERcapvG9BGryUWDDj904qRj4VPEMoncD6FN9rBaJ'    
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    OAUTH_TOKEN = ''
+    OAUTH_TOKEN_SECRET = ''    
     auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
     
     twitter_api = twitter.Twitter(auth=auth)
